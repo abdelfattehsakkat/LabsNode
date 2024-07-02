@@ -77,3 +77,8 @@ Open your web browser and visit http://localhost:3000 to see the homepage.
 Try visiting http://localhost:3000/about to see the about page.
 Observe the terminal to see the middleware log for each incoming request.
 Congratulations! You've completed Lab 1 on routing and middleware in Express. You've learned how to define basic routes and implement middleware in an Express application. This knowledge will serve as a strong foundation as you dive deeper into more complex functionalities of Express and MongoDB in the upcoming labs.
+
+
+Bonus:
+
+Try to handle a GET route that has no corresponding service declared
