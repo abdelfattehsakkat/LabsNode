@@ -10,6 +10,20 @@ This project is a mini Node.js application designed to recap the concepts covere
 -   **Middleware**: Custom middleware is used for error handling, validation, and authentication.
 -   **Authentication**: JWT-based authentication is implemented.
 
+  
+### Project Features
+
+1.  **User Signup and Login**: Users can sign up and log in to the application. Passwords are hashed using bcrypt.
+    
+2.  **JWT Authentication**: Upon successful login, a JWT token is generated and returned to the user. This token is used to authenticate subsequent requests.
+    
+3.  **Task Management**: Users can create, read, update, and delete tasks. Each task is associated with a user.
+    
+4.  **Middleware**: Custom middleware for authentication (`authMiddleware`), error handling (`errorMiddleware`), and request validation (`validateMiddleware`) is implemented.
+    
+5.  **Database Connection**: The application connects to a MongoDB database using the native MongoDB driver.
+
+   
 ## Project Structure
 
 ```bash
@@ -96,17 +110,6 @@ package.json`
 -   **Delete Task**: `DELETE /tasks/:id`
     
 
-### Project Features
-
-1.  **User Signup and Login**: Users can sign up and log in to the application. Passwords are hashed using bcrypt.
-    
-2.  **JWT Authentication**: Upon successful login, a JWT token is generated and returned to the user. This token is used to authenticate subsequent requests.
-    
-3.  **Task Management**: Users can create, read, update, and delete tasks. Each task is associated with a user.
-    
-4.  **Middleware**: Custom middleware for authentication (`authMiddleware`), error handling (`errorMiddleware`), and request validation (`validateMiddleware`) is implemented.
-    
-5.  **Database Connection**: The application connects to a MongoDB database using the native MongoDB driver.
 
 ### Code Snippets
 
